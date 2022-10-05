@@ -11,7 +11,7 @@ int main()
     printf("Terceiro valor: ");
     scanf("%d", &c);
 
-    if (a < b) {
+    if (a < b && a < c) {
         menor = a;
     }
     else if (b < c) {
